@@ -2,8 +2,6 @@
 
 **Language-guided protein representations for antimicrobial resistance analysis**
 
-[Model weights on Hugging Face](https://huggingface.co/rongye1/BacLLM/tree/main/BacLLM_model)
-
 BacLLM is a protein representation framework for antimicrobial resistance (AMR) analysis in WHO priority bacterial pathogens. It adapts an ESM-2 sequence encoder using functional knowledge from protein annotations. After training, BacLLM takes amino acid sequences as input and produces protein embeddings for downstream analysis.
 
 This repository explains how to load the released sequence encoder and extract embeddings. Model weights are hosted on [Hugging Face](https://huggingface.co/rongye1/BacLLM/tree/main/BacLLM_model).
